@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7b7b863d7b78447eadcb647f026b144f" Name="Diagram1">
+        <EntityTypeShape EntityType="FFEFKMModel.Device" Width="1.5" PointX="8.125" PointY="0.5" />
+        <EntityTypeShape EntityType="FFEFKMModel.DeviceStatus" Width="1.5" PointX="5.875" PointY="0.75" />
+        <EntityTypeShape EntityType="FFEFKMModel.Team" Width="1.5" PointX="0.875" PointY="4.75" />
+        <EntityTypeShape EntityType="FFEFKMModel.User" Width="1.5" PointX="3.125" PointY="0.625" />
+        <EntityTypeShape EntityType="FFEFKMModel.UsersLog" Width="1.5" PointX="0.875" PointY="1.25" />
+        <EntityTypeShape EntityType="FFEFKMModel.UsersRole" Width="1.5" PointX="4.875" PointY="4.75" />
+        <AssociationConnector Association="FFEFKMModel.FK_Status" />
+        <AssociationConnector Association="FFEFKMModel.FK_TeamID" />
+        <AssociationConnector Association="FFEFKMModel.FK_LogID" />
+        <AssociationConnector Association="FFEFKMModel.FK_RoleID" ManuallyRouted="true" >
+          <ConnectorPoint PointX="4.875" PointY="5.6439925130208337" />
+          <ConnectorPoint PointX="4.193888991828759" PointY="5.6439925130208337" />
+          <ConnectorPoint PointX="4.193888991828759" PointY="3.7590950520833331" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
